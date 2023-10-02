@@ -8,8 +8,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-
-  #profile{
+  #profile {
     margin-bottom: 6rem;
   }
 
@@ -50,13 +49,9 @@
   #contact {
     margin-bottom: 5rem;
   }
-
 }
 
 @media screen and (max-width: 1094px) {
-
-
- 
   #desktop-nav {
     display: none;
   }
@@ -71,14 +66,14 @@
     min-width: 350px;
   }
 
-  .section-container{
+  .section-container {
     display: flex;
     justify-content: center;
   }
-  .article-container{
+  .article-container {
     grid-template-columns: 1fr 1fr;
   }
-  .about-containers-project{
+  .about-containers-project {
     display: grid;
     grid-template-rows: 1fr 1fr;
     min-width: 350px;
@@ -86,6 +81,16 @@
 }
 
 @media screen and (max-width: 660px) {
+  .logo {
+    font-size: 1.2rem;
+    text-align: start;
+  }
+  .hamburger-icon span {
+    margin-left: 30px;
+  }
+  .menu-links a {
+    font-size: 1rem;
+  }
   .desktop-nav {
     padding-top: 15px;
   }
@@ -94,16 +99,14 @@
     margin-bottom: 5rem;
   }
   #profile {
-    /* height: 83vh; */
     margin-bottom: 5rem;
   }
-  .article-container{
+  .article-container {
     grid-template-columns: 1fr 1fr;
   }
   article {
     font-size: 1rem;
   }
- 
   contact-info-upper-container {
     display: flex;
     flex-direction: row;
@@ -121,24 +124,18 @@
   .experience-sub-title {
     font-size: 1.25rem;
   }
-  .logo {
-    font-size: 1.5rem;
-  }
   .nav-links {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
   }
-  /* #profile > * {
-    margin-bottom: 4rem;
-  } */
   #about {
     margin-bottom: 2rem;
   }
   .section__text__heading {
     font-size: 1.25rem;
   }
-  .section__text__p2{
+  .section__text__p2 {
     font-size: 1.25rem;
   }
   .title {
@@ -151,17 +148,9 @@
   .contact-info-container {
     padding-inline: 20px;
   }
-  /* #projects{
-    margin-bottom: -5rem;
-  } */
 }
 
 @media screen and (max-width: 500px) {
-  /* #profile {
-    margin: 0;
-    padding: 0;
-  } */
-
   .title {
     font-size: 2rem;
   }
@@ -170,14 +159,14 @@
     font-size: 1rem;
   }
 
-  #about{
+  #about {
     margin-top: 1rem;
   }
-  .article-container{
+  .article-container {
     grid-template-columns: 1fr;
     margin-top: 20px;
   }
-  .about-containers-project{
+  .about-containers-project {
     min-width: 250px;
   }
   .project-img {
