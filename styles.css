@@ -179,10 +179,9 @@ section {
   width: 100%;
 }
 
-.section__text >*{
+.section__text > * {
   margin-bottom: 0.8rem;
 }
-
 
 .section__text__heading {
   text-align: center;
@@ -279,7 +278,6 @@ section {
   display: flex;
 }
 
-
 .summary-paragraph {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -359,7 +357,6 @@ article .icon {
   justify-content: center;
   gap: 20px;
   padding-top: 20px;
-  
 }
 
 .details-container-project {
@@ -443,7 +440,6 @@ article .icon {
   justify-content: start;
   gap: 0.5rem;
   margin: 1rem;
-  
 }
 
 .contact-info-container p {
@@ -454,12 +450,13 @@ article .icon {
   cursor: pointer;
 }
 
-.contact-info-container img {
-  height: 40px;
-  width: 40px;
+.email-icon {
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
 }
-.linkedin-icon {
-  height: 15px;
-  cursor: pointer;
 
+.linkedin-icon {
+  width: 28px;
+  height: 28px;
 }
